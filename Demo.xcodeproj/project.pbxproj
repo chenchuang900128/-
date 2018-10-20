@@ -15,6 +15,8 @@
 		04CE000E217AF17500375621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE000D217AF17500375621 /* main.m */; };
 		04CE0018217AF17600375621 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE0017217AF17600375621 /* DemoTests.m */; };
 		04CE0023217AF17600375621 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE0022217AF17600375621 /* DemoUITests.m */; };
+		04CE0033217AF18600375621 /* HCDragingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE0032217AF18600375621 /* HCDragingView.m */; };
+		04CE0035217AF20B00375621 /* myIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CE0034217AF20A00375621 /* myIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		04CE001E217AF17600375621 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE0022217AF17600375621 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		04CE0024217AF17600375621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CE0031217AF18600375621 /* HCDragingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDragingView.h; sourceTree = "<group>"; };
+		04CE0032217AF18600375621 /* HCDragingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDragingView.m; sourceTree = "<group>"; };
+		04CE0034217AF20A00375621 /* myIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myIcon.png; sourceTree = "<group>"; };
 		04CEFFFB217AF17400375621 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CEFFFE217AF17400375621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04CEFFFF217AF17400375621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +101,15 @@
 			path = DemoUITests;
 			sourceTree = "<group>";
 		};
+		04CE0030217AF18600375621 /* HCDragingView */ = {
+			isa = PBXGroup;
+			children = (
+				04CE0031217AF18600375621 /* HCDragingView.h */,
+				04CE0032217AF18600375621 /* HCDragingView.m */,
+			);
+			path = HCDragingView;
+			sourceTree = "<group>";
+		};
 		04CEFFF2217AF17400375621 = {
 			isa = PBXGroup;
 			children = (
@@ -119,10 +133,12 @@
 		04CEFFFD217AF17400375621 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				04CE0034217AF20A00375621 /* myIcon.png */,
 				04CEFFFE217AF17400375621 /* AppDelegate.h */,
 				04CEFFFF217AF17400375621 /* AppDelegate.m */,
 				04CE0001217AF17400375621 /* ViewController.h */,
 				04CE0002217AF17400375621 /* ViewController.m */,
+				04CE0030217AF18600375621 /* HCDragingView */,
 				04CE0004217AF17400375621 /* Main.storyboard */,
 				04CE0007217AF17500375621 /* Assets.xcassets */,
 				04CE0009217AF17500375621 /* LaunchScreen.storyboard */,
@@ -249,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE0035217AF20B00375621 /* myIcon.png in Resources */,
 				04CE000B217AF17500375621 /* LaunchScreen.storyboard in Resources */,
 				04CE0008217AF17500375621 /* Assets.xcassets in Resources */,
 				04CE0006217AF17400375621 /* Main.storyboard in Resources */,
@@ -278,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE0033217AF18600375621 /* HCDragingView.m in Sources */,
 				04CE0003217AF17400375621 /* ViewController.m in Sources */,
 				04CE000E217AF17500375621 /* main.m in Sources */,
 				04CE0000217AF17400375621 /* AppDelegate.m in Sources */,

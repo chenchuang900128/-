@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HCDragingView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    HCDragingView *dragView = [[HCDragingView alloc] initWithFrame:CGRectMake(200, 300, 50, 50) containerView:self.view];
+    dragView.dragImage = @"myIcon";
+    dragView.badge = 3;
+    dragView.didEventBlock = ^{
+        
+        NSLog(@"点击事件");
+    };
+    [dragView show];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
